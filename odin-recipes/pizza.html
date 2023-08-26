@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza</title>
   </head>
-  <body style="background-color: aliceblue;">
-
+  <body style="background-color: aliceblue">
     <header id="header">
-        <h1 id="title">2-Ingredient Dough Pizza</h1>
-
-        <div id="image-container"></div>
-  
-        <div id="description">
+      <h1>2-Ingredient Dough Pizza</h1>
+      <div id="image-container" style="height: 300px; max-width: 600px">
+        <img
+          src="../images/pizza.png"
+          alt="An image about pizza"
+          style="height: 100%; width: 100%"
+        />
+      </div>
     </header>
 
     <main id="main">
-        <h4><strong></strong></h4>
+      <div id="description">
+        <h4><strong>Description:</strong></h4>
         <p>
           2-ingredient dough pizza is a quick and easy way to satisfy your pizza
           cravings. The dough is made with just two ingredients - Greek yogurt
@@ -25,14 +28,63 @@
         </p>
       </div>
 
-      <div class="ingredients"></div>
-      <div class="preparation"></div>
-      <div class="nutrition-info"></div>
+      <div class="ingredients">
+        <h4><strong>Ingredients:</strong></h4>
+        <ul id="ingredients-list">
+          <li>1 ¾ cups self-rising flour(220 g), plus more for dusting</li>
+          <li>1 cup greek yogurt(245 g)</li>
+          <li>½ cup pizza sauce(130 g)</li>
+          <li>1 cup shredded mozzarella cheese(100 g), part-skim</li>
+          <li>pepperoni slouse, for topping</li>
+        </ul>
+      </div>
+
+      <div class="preparation">
+        <h4><strong>Preparation:</strong></h4>
+        <ol id="preparation-list">
+          <li>Preheat oven to 400°F(200°C).</li>
+          <li>
+            In a large bowl, mix the self-rising flour and Greek yogurt until it
+            comes together to form a ball.
+          </li>
+          <li>
+            Transfer the dough ball to a lightly floured work surface and use
+            your hands to begin flattening and shaping the rough into about a
+            12-inch (30 cm) round. If at any point the dough begins to stick,
+            sprinkle on a bit more flour.
+          </li>
+          <li>
+            Carefully transfer the dough to a lightly floured baking sheet.
+          </li>
+          <li>
+            Spread the sauce evenly across the dough, sprinkle on the cheese,
+            and top with pepperonis
+          </li>
+          <li>
+            Bake for 20 minutes, until the cheese has melted and the crust has
+            turned golden-brown.
+          </li>
+          <li>Slice and serve.</li>
+          <li>Enjoy!</li>
+        </ol>
+      </div>
+
+      <div class="nutrition-info">
+        <h4><strong>Nutrition Info:</strong></h4>
+        <ul id="nutrition-list">
+          <li>Calories <strong>152</strong></li>
+          <li>Fat <strong>3g</strong></li>
+          <li>Carbs <strong>19g</strong></li>
+          <li>Fiber <strong>0g</strong></li>
+          <li>Sugar <strong>4g</strong></li>
+          <li>Protein <strong>9g</strong></li>
+        </ul>
+      </div>
     </main>
 
     <footer id="footer">
-        <a href="#header">Return to top</a><br>
-        <a href="../index.html">Home</a>
+      <a href="#header">Return to top</a><br />
+      <a href="../index.html">Home</a>
     </footer>
   </body>
 </html>
